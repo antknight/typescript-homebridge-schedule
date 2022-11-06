@@ -86,7 +86,7 @@ class ScheduleAccessory implements AccessoryPlugin {
           if (value) {
             setTimeout(() => {
               this.switchService.setCharacteristic('On', false);
-            }, 1000);
+            }, 10000);
           }
 
           callback();
